@@ -1,0 +1,263 @@
+/* This .css file serves as a template for your company's eFrequency MemberLink Login and Profile/Bonus 
+ * Plan Balance web pages. After you have defined the property values for the available selectors, 
+ * please enter the URL where this .css file is stored in the eFrequency MemberLink Configuration Wizard.
+ *
+ * The .page selector defines the background for both the eFrequency Login and Profile/Bonus Plan Balance
+ * web pages.
+ *
+ * The .title selector defines the properties for the title text entered on the eFrequency MemberLink 
+ * Configuration Wizard. This label is displayed on the top of both the eFrequency Login and 
+ * Profile/Bonus Plan Balance web pages.
+ *
+ * The .instructions selector defines the properties for the instructional text 
+ * entered on the MemberLink Configuration Wizard.
+ *
+ * The .fldLabel selector defines the properties for the profile field labels on the Profile/Bonus Plan 
+ * Balance web page. 
+ *
+ * The .fldData selector defines the properties for the profile field values and text boxes on the 
+ * Profile/Bonus Plan Balance web page.
+ *
+ * The .BPName selector defines the properties for the Bonus Plan name labels on the Profile/Bonus Plan 
+ * Balance web page.
+ *
+ * The .BPBalance selector defines the properties for the Bonus Plan balance labels on the Profile/Bonus 
+ * Plan Balance web page. 
+ *
+ * The .homelink selector defines the properties for the home link text entered in the eFrequency 
+ * MemberLink Configuration Wizard. This link is available on both the Login and Profile/Bonus Plan 
+ * Balance web pages. 
+ *
+ * The .grpbox selector defines the properties for the group box text available on the Profile/Bonus Plan
+ * Balance web page. 
+ *
+ * The .asterisk selector defines the properties for the asterisk that denotes required profile fields 
+ * available on the Profile/Bonus Plan Balance web page. 
+ *
+ * The .login selector defines the Submit and Login properties on the eFrequency MemberLink Login web page.
+ *
+ * The .eCardBalance_one selector defines the string that displays the current eCard balance for the card 
+ * (above the transaction list)â€”if the card has eCard functionality only.
+ * 
+ * The .eCardBalance_both selector defines the string that displays the current eCard balance for the card 
+ * (above the transaction list)â€”if the card has eCard and eFrequency functionality.
+ * 
+ * The .TxnColumns_one selector defines the transaction listâ€™s column headersâ€”if the card has either eCard 
+ * or eFrequency functionality only.
+ * 
+ * The .TxnColumns_both selector defines the transaction listsâ€™ column headersâ€”if the card has eCard functionality only.
+ * 
+ * The TxnValues_one selector defines the eCard transaction listâ€™s detail fieldsâ€”if the card has eCard functionality only.
+ */
+
+/**********
+* GENERAL *
+**********/
+
+html,
+body {
+    background-color: #efe6c5;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #686b61;
+}
+
+a,
+a:visited { 
+    color: #e74343;
+    text-decoration: none;
+}
+
+input,
+select,
+textarea {
+    background-color: #fff;
+    border-width: 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px #aaa;
+    padding: 0.6em;
+    outline: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-shadow: none;
+}
+
+input[type="submit"],
+button,
+.button,
+.button:visited,
+.checkButton,
+.checkButtonMouseDown {
+    display: inline-block;
+    color: #fff !important;
+    font-weight: bold;
+    text-shadow: 0 1px #b30d0d;
+    background-color: #e74343;
+    background-image: none !important;
+    border-radius: 4px;
+    box-shadow: 0 2px #b30d0d;
+    margin: 1em;
+    padding: 0.5em 1.25em;
+    text-align: center;
+    font-size: 1em;
+}
+
+button > div > img {
+    display: none;
+}
+
+button.largeCmd {
+    width: 9em;
+}
+
+.page { 
+    background-color: #efe6c5;
+}
+
+img[name="logo"] {
+    margin: 1em;
+    width: 5em;
+}
+
+.title {
+	font-size: 24pt;
+	font-weight: bold;
+	color: #323232;
+	text-align: center;
+    padding-top: 2em;
+}
+
+.instructions {
+	font-size:11pt;
+	font-weight:normal;
+	font-style:normal;
+	color:rgb(0, 0, 0);
+	text-align:left;
+}
+
+.fldLabel {
+	font-size:11pt;
+	font-weight:normal;
+	font-style:normal;
+	color:rgb(0, 0, 0);
+	text-align:right;
+    width:50%;
+    padding-right: 1em;
+}
+
+.fldData {
+	font-size:11pt;
+	font-weight:normal;
+	font-style:normal;
+	color:rgb(0, 0, 0);
+	text-align:left;
+	background-color:rgb(255, 255, 255);
+    width:230px;
+}
+
+.BPName { 
+	font-size:11pt;
+	font-weight:bold;
+	font-style:normal;
+	color:rgb(0, 0, 0);
+	text-align:right;
+}
+
+.BPBalance {
+	font-size:11pt;
+	font-weight:normal;
+	font-style:normal;
+	color:rgb(0, 0, 0);
+	text-align:left;
+}
+
+.homelink {
+	font-size:9pt;
+	font-weight:bold;
+	font-style:normal;
+	color:rgb(49, 106, 197);
+	text-align:center;
+	text-decoration:underline;
+}
+
+.grpbox {
+	font-size:11pt;
+	font-weight:bold;
+	font-style:normal;
+	color:rgb(0, 0, 0);
+	text-align:left;
+}
+
+.asterisk {
+	font-size:11pt;
+	font-weight:normal;
+	font-style:normal;
+	color:rgb(220, 0, 0);
+	text-align:left;
+}
+
+.login {
+	font-size:11pt;
+	font-weight:bold;
+	font-style:normal;
+	color:rgb(49, 106, 197);
+	text-align:center;
+}
+
+.Txn_both {
+	font-size:  10pt;
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(255, 255, 255);
+	text-align: left;
+}
+
+.Txn_one {
+	font-size:  18pt;
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(255, 255, 255);
+	text-align: left;
+}
+
+.eCardBalance_both {
+	font-size: 10pt; 
+	font-weight: bold; 
+	font-style: normal; 
+	color: rgb(0, 0, 0); 
+	text-align: center;
+}
+
+.eCardBalance_one {
+	font-size: 12pt; 
+	font-weight: bold; 
+	font-style: normal; 
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+.TxnValues_both {
+	font-size: 10pt; 
+	font-weight: bold; 
+	font-style: normal; 
+	color: rgb(0, 0, 0); 
+	text-align: left; 
+}
+
+.TxnValues_one {
+	font-size: 14pt; 
+	font-weight: bold; 
+	font-style: normal; 
+	color: rgb(0, 0, 0); 
+	text-align: left;
+}
+
+.EditProfile { 
+        font-size:10pt; 
+        font-weight:normal; 
+        font-style:normal; 
+        color:rgb(0, 0, 0); 
+        text-align:center 
+}

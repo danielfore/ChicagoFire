@@ -1,0 +1,32 @@
+/*********
+* NAVBAR *
+*********/
+
+.hamburger-menu {
+    display: none;
+}
+
+nav .internal {
+    display: block;
+}
+
+nav > .logo > li {
+    margin: 0 1em;
+}
+
+/**********
+* LOYALTY *
+**********/
+
+.loyalty-banner p,
+.loyalty-banner span {
+    font-size: 22px;
+}
+
+/********
+* Cards *
+********/
+
+.card p, .card p span {
+    font-size: 16px;
+}

@@ -1,0 +1,264 @@
+/*******
+* Text *
+*******/
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+ol,
+p {
+    max-width: 100%;
+    font-size: 0.8em;
+}
+
+ol li {
+    max-width: 92%;
+}
+
+.button,
+.button:visited {
+    margin: 0.25em 0.5em;
+    padding: 0.25em 0.5em;
+    width: 85%;
+    height: 3.5em;
+    line-height: 3.5em;
+    font-size: 0.8em;
+}
+
+.button.linked {
+    height: 2.5em;
+    line-height: 2.5em;
+}
+
+/*********
+* Layout *
+*********/
+.menu-allergy .flex-rows > div,
+.flex-rows > div {
+    width: auto;
+    padding: 0;
+}
+
+/*********
+* Menu *
+*********/
+
+.food-menu .flex-rows h5 {
+    text-align: left;
+    font-size: 1em;
+    margin: 1em 0 0;
+}
+
+.food-menu h4,
+.food-menu .flex-rows p {
+    text-align: left;
+    font-size: 0.8em;
+    margin: 0.5em 0;
+}
+
+.food-menu.apps h1 {
+    padding-top: 2em;
+}
+
+.food-menu.content {
+    background-attachment: initial;
+    background-position-x: center;
+}
+
+/*********
+* NAVBAR *
+*********/
+
+.mobile {
+    display: block;
+}
+
+.mobile-no-show {
+    display: none;
+}
+
+/**********
+* BANNER *
+**********/
+
+.banner {
+    background-position: right bottom;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.banner h1 {
+    font-size: 1.5em;
+}
+
+.content.loyalty-banner .mobile {
+    position: absolute;
+    bottom: 3em;
+    left: 0;
+    right: 0;
+}
+
+.content.home {
+    background-image: url(/images/still.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/still.jpg);
+    background-color: #333;
+    background-position: center;
+    background-position-y: center;
+}
+
+.content.home .biglogo {
+    width: 90%;
+    max-width: 300px;
+}
+
+.videoBG {
+    display: none;
+}
+
+.banner .button {
+    position: relative;
+    width: 10em;
+    padding: 0 0.5em;
+}
+
+.content {
+    padding: 3.5em 1em;
+}
+
+/*********
+* EVENTS *
+**********/
+
+.event {
+    margin: 1em auto;
+    width: 100%;
+    text-align: center;
+}
+
+.event > div {
+    margin: auto;
+    display: block;
+}
+
+.event p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+.event-img {
+    height: 6em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/**********
+* LOYALTY *
+**********/
+
+.loyalty.flex-rows > div {
+    width: 100%;
+}
+
+.banner.deep {
+    background-size: cover;
+}
+
+.banner.deep {
+    background-position: center bottom;
+}
+
+#loyalty-logo {
+    width: 80%;
+    padding-top: 30%
+}
+
+.loyalty .banner_bottom_center {
+    display: block
+}
+
+.banner.deep .overlay {
+    background-color: #402412;
+    opacity: 0.65;
+}
+
+.banner.deep .overlay-text {
+    padding: 1em;
+    height: 94%;
+}
+
+.banner.deep .overlay-text > div:first-child,
+.banner.deep .overlay-text > div {
+    flex: 1;
+}
+
+.banner.deep .overlay-text h1 {
+    font-size: 8.5vw;
+}
+
+.banner.deep .overlay-text h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    width: 75%;
+}
+
+.banner.deep .overlay-text p {
+    font-size: 0.85em;
+    line-height: 1.25;
+    width: 75%;
+}
+
+#faq.content h3,
+#faq.content p {
+    text-align: left;
+    max-width: 87%;
+    margin: 1em auto;
+}
+
+#rules ul {
+    padding: 0.5em;
+}
+
+#rules ul > li {
+    font-size: 0.8em;
+}
+
+/************
+* LOCATIONS *
+************/
+
+/*FIXME: Find out if this can be safely removed*/
+
+.content > img {
+    margin-top: 2em;
+}
+
+/**********
+* SKYLINE *
+**********/
+
+.skylinecontent {
+    padding: 1em;
+}
+
+/*********
+* FOOTER *
+*********/
+
+footer {
+    text-align: center;
+}
+
+footer .links {
+    float: none;
+    padding: 0;
+}

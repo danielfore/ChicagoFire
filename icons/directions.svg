@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="24.000027"
+   height="24.00882"
+   id="svg5716">
+  <defs
+     id="defs5718" />
+  <metadata
+     id="metadata5721">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(90.999943,69.397894)"
+     id="layer1">
+    <path
+       d="m -78.999918,-69.397894 c -0.2168,0 -0.4438,0.0684 -0.6098,0.23454 l -11.141,11.16447 c -0.3323,0.3322 -0.3323,0.86399 0,1.19619 l 11.141,11.16447 c 0.3321,0.3322 0.8874,0.3322 1.2196,0 l 11.141,-11.16447 c 0.3322,-0.3322 0.3322,-0.86399 0,-1.19619 l -11.141,-11.16447 c -0.1661,-0.1661 -0.3931,-0.23454 -0.6098,-0.23454 z m -0.023,5.84023 c 0.066,0 0.1456,0.0116 0.2345,0.0234 0.3941,0.0528 5.5864,2.44051 5.8168,2.67384 0.075,0.077 -2.894,4.21871 -3.4479,4.80823 -0.3054,0.32509 -0.6462,0.36579 -0.7505,0.0938 -0.04,-0.10275 -0.071,-0.76442 -0.071,-1.47765 l 0,-1.29002 -0.6333,0.32837 c -0.3405,0.18268 -0.8845,0.58996 -1.2196,0.91474 -0.8949,0.86721 -1.1024,1.6384 -1.1024,4.03422 l 0,1.80601 -1.4307,0 -1.4307,0 0.047,-1.9702 c 0.042,-1.27031 0.134,-2.24225 0.258,-2.6973 0.2088,-0.76694 0.8602,-2.01025 1.3369,-2.58002 0.4711,-0.56283 1.4284,-1.2443 2.4159,-1.7122 l 0.9148,-0.44564 -0.6568,-1.07892 c -0.6575,-1.0969 -0.746,-1.43073 -0.2814,-1.43074 z"
+       id="rect3956"
+       style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+</svg>

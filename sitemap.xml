@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://chicagofire.com/</loc>
+</url>
+<url>
+  <loc>http://chicagofire.com/menu.php</loc>
+</url>
+<url>
+  <loc>http://chicagofire.com/barmenu.php</loc>
+</url>
+<url>
+  <loc>http://chicagofire.com/index.php</loc>
+</url>
+<url>
+  <loc>http://chicagofire.com/community.php</loc>
+</url>
+<url>
+  <loc>http://chicagofire.com/jobs.php</loc>
+</url>
+<url>
+  <loc>http://chicagofire.com/card/</loc>
+  <lastmod>2014-08-18T21:20:50+00:00</lastmod>
+</url>
+<url>
+  <loc>http://chicagofire.com/loyalty/</loc>
+  <lastmod>2014-08-05T19:09:46+00:00</lastmod>
+</url>
+<url>
+  <loc>http://chicagofire.com/menu/</loc>
+  <lastmod>2014-09-23T20:39:39+00:00</lastmod>
+</url>
+<url>
+  <loc>http://chicagofire.com/privacy.php</loc>
+</url>
+<url>
+  <loc>http://chicagofire.com/pdf/employment_application.pdf</loc>
+  <lastmod>2014-05-14T23:24:02+00:00</lastmod>
+</url>
+<url>
+  <loc>http://chicagofire.com/loyalty.php</loc>
+</url>
+</urlset>
